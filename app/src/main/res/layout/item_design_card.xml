@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Row 1: Title + Tag -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvCardTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins_bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/tvCardTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="3dp"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:fontFamily="@font/poppins_bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Row 2: Category -->
+        <TextView
+            android:id="@+id/tvCardCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="2dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginVertical="12dp" />
+
+        <!-- Stats Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Difficulty -->
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Difficulty" android:textColor="@color/text_hint"
+                    android:textSize="10sp" android:fontFamily="@font/poppins_regular" />
+                <TextView android:id="@+id/tvCardDifficulty"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="13sp" android:fontFamily="@font/poppins_bold" />
+            </LinearLayout>
+
+            <!-- Time -->
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Est. Time" android:textColor="@color/text_hint"
+                    android:textSize="10sp" android:fontFamily="@font/poppins_regular" />
+                <TextView android:id="@+id/tvCardHours"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="@color/primary" android:textSize="13sp"
+                    android:fontFamily="@font/poppins_bold" />
+            </LinearLayout>
+
+            <!-- Market Value -->
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Market Value" android:textColor="@color/text_hint"
+                    android:textSize="10sp" android:fontFamily="@font/poppins_regular" />
+                <TextView android:id="@+id/tvCardValue"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="@color/secondary" android:textSize="13sp"
+                    android:fontFamily="@font/poppins_bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Material preview row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/surface_variant"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎋 "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvCardBamboo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins_medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  |  🪢 "
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvCardCane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins_medium" />
+
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvCardMaterials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_hint"
+                android:textSize="11sp"
+                android:fontFamily="@font/poppins_regular" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

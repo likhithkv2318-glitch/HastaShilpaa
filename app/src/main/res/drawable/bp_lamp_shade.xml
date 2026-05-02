@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Grid -->
+    <path android:pathData="M0,40 H320 M0,80 H320 M0,120 H320 M0,160 H320"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,0 V200 M80,0 V200 M120,0 V200 M160,0 V200 M200,0 V200 M240,0 V200 M280,0 V200"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+
+    <!-- Lamp shade front view: trapezoid -->
+    <!-- Top ring (30cm dia → 80px wide centered at 160) -->
+    <path android:pathData="M120,40 H200" android:strokeColor="#FFFFFF" android:strokeWidth="2.5" android:fillColor="@android:color/transparent"/>
+    <!-- Bottom ring (40cm dia → 106px wide) -->
+    <path android:pathData="M107,155 H213" android:strokeColor="#FFFFFF" android:strokeWidth="2.5" android:fillColor="@android:color/transparent"/>
+    <!-- Left slant -->
+    <path android:pathData="M120,40 L107,155" android:strokeColor="#FFFFFF" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+    <!-- Right slant -->
+    <path android:pathData="M200,40 L213,155" android:strokeColor="#FFFFFF" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+
+    <!-- 6 vertical struts equally spaced -->
+    <path android:pathData="M120,40 L107,155 M133,40 L119,155 M147,40 L131,155 M160,40 L160,155 M173,40 L189,155 M187,40 L201,155 M200,40 L213,155"
+        android:strokeColor="#C8860A" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Hexagonal weave rows (horizontal lines at intervals) -->
+    <path android:pathData="M120,60 H200 M119,80 H201 M118,100 H202 M116,120 H204 M114,138 H206"
+        android:strokeColor="#E8C547" android:strokeWidth="0.8" android:fillColor="@android:color/transparent"/>
+
+    <!-- Pendant cord at top center -->
+    <path android:pathData="M160,10 V40" android:strokeColor="#FFFFFF" android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <path android:pathData="M155,10 H165" android:strokeColor="#FFFFFF" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+
+    <!-- Dimension: width top = 30cm -->
+    <path android:pathData="M120,28 H200" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M120,24 L120,32 M200,24 L200,32" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Dimension: height = 25cm -->
+    <path android:pathData="M225,40 V155" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M221,40 L229,40 M221,155 L229,155" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Dimension: width bottom = 40cm -->
+    <path android:pathData="M107,170 H213" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M107,166 L107,174 M213,166 L213,174" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+</vector>

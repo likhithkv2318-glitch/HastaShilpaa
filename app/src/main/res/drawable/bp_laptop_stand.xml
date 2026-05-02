@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Blueprint background grid lines -->
+    <path android:pathData="M0,40 H320 M0,80 H320 M0,120 H320 M0,160 H320"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,0 V200 M80,0 V200 M120,0 V200 M160,0 V200 M200,0 V200 M240,0 V200 M280,0 V200"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+
+    <!-- Laptop stand outline — side view -->
+    <!-- Base frame: horizontal bar -->
+    <path android:pathData="M30,150 H290 V160 H30 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2"/>
+    <!-- Left leg at 25° angle -->
+    <path android:pathData="M60,150 L90,80"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2.5" android:fillColor="@android:color/transparent"/>
+    <!-- Right leg at 25° angle -->
+    <path android:pathData="M260,150 L230,80"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2.5" android:fillColor="@android:color/transparent"/>
+    <!-- Top platform (laptop rest) -->
+    <path android:pathData="M90,80 H230 V88 H90 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2"/>
+    <!-- Cane webbing cross-hatching on platform -->
+    <path android:pathData="M100,80 L100,88 M115,80 L115,88 M130,80 L130,88 M145,80 L145,88 M160,80 L160,88 M175,80 L175,88 M190,80 L190,88 M205,80 L205,88 M220,80 L220,88"
+        android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Jute cord lashing at joints -->
+    <path android:pathData="M85,88 Q90,84 95,88" android:strokeColor="#C8860A" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M225,88 Q230,84 235,88" android:strokeColor="#C8860A" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+
+    <!-- Dimension lines -->
+    <!-- Width arrow: 32 cm -->
+    <path android:pathData="M30,170 H290" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M30,166 L30,174 M290,166 L290,174" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Height arrow: 15 cm -->
+    <path android:pathData="M305,80 V160" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M301,80 L309,80 M301,160 L309,160" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Angle label position marker -->
+    <path android:pathData="M60,150 Q65,130 75,125" android:strokeColor="#E8C547" android:strokeWidth="0.8"
+        android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+
+</vector>

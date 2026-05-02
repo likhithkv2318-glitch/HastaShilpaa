@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Grid -->
+    <path android:pathData="M0,40 H320 M0,80 H320 M0,120 H320 M0,160 H320"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,0 V200 M80,0 V200 M120,0 V200 M160,0 V200 M200,0 V200 M240,0 V200 M280,0 V200"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+
+    <!-- Tray top view -->
+    <!-- Main tray body: 45cm × 28cm, scaled to 200×120 px -->
+    <path android:pathData="M60,50 H260 V150 H60 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2.5"/>
+
+    <!-- Bamboo panel joints (horizontal split lines) -->
+    <path android:pathData="M60,83 H260 M60,116 H260"
+        android:strokeColor="#C8860A" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Handle left -->
+    <path android:pathData="M30,80 H60 V120 H30 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2"/>
+    <!-- Handle right -->
+    <path android:pathData="M260,80 H290 V120 H260 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2"/>
+
+    <!-- Screw holes on handles -->
+    <path android:pathData="M42,90 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M42,110 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M278,90 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M278,110 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Dimension: length 45cm -->
+    <path android:pathData="M60,168 H260" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M60,164 L60,172 M260,164 L260,172" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Dimension: width 28cm -->
+    <path android:pathData="M300,50 V150" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M296,50 L304,50 M296,150 L304,150" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Handle clearance 4cm -->
+    <path android:pathData="M30,35 H60" android:strokeColor="#E8C547" android:strokeWidth="0.8" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M30,31 L30,39 M60,31 L60,39" android:strokeColor="#E8C547" android:strokeWidth="0.8" android:fillColor="@android:color/transparent"/>
+
+</vector>

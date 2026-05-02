@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⭐ Featured"
+        android:textColor="@color/text_primary"
+        android:textSize="17sp"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="10dp" />
+
+    <!-- Horizontal RecyclerView replaces ViewPager2 - no ANR conflict -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFeatured"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingHorizontal="12dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:nestedScrollingEnabled="false" />
+
+</LinearLayout>

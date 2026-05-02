@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <!-- Logo Container -->
+        <FrameLayout
+            android:id="@+id/logoContainer"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/bg_circle_light_green">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_foreground"
+                android:tint="#FFFFFF" />
+        </FrameLayout>
+
+        <View android:layout_width="0dp" android:layout_height="32dp" />
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="हस्त-शिल्प"
+            android:textColor="#E8C547"
+            android:textSize="38sp"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing="0.05"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasta-Shilpa"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_medium"
+            android:letterSpacing="0.15"
+            android:layout_marginTop="4dp" />
+
+        <View android:layout_width="0dp" android:layout_height="16dp" />
+
+        <!-- Tagline -->
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design Bridge for Artisans"
+            android:textColor="#A5D6A7"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_medium"
+            android:visibility="invisible" />
+
+        <View android:layout_width="0dp" android:layout_height="8dp" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Western Ghats Bamboo &amp; Cane Artisans"
+            android:textColor="#80FFFFFF"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <!-- Bottom tagline -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:text="🌿 Sustainable · Handcrafted · Modern"
+        android:textColor="#60FFFFFF"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins_regular" />
+
+</FrameLayout>

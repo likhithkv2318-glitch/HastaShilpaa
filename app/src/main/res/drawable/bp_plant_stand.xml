@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Grid -->
+    <path android:pathData="M0,40 H320 M0,80 H320 M0,120 H320 M0,160 H320"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,0 V200 M80,0 V200 M120,0 V200 M160,0 V200 M200,0 V200 M240,0 V200 M280,0 V200"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+
+    <!-- Tripod legs (front view) -->
+    <!-- Left leg -->
+    <path android:pathData="M110,15 L60,170" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <!-- Right leg -->
+    <path android:pathData="M210,15 L260,170" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <!-- Center back leg -->
+    <path android:pathData="M160,15 L160,170" android:strokeColor="#FFFFFF" android:strokeWidth="2" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+
+    <!-- Binding at apex -->
+    <path android:pathData="M105,18 H215" android:strokeColor="#C8860A" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+
+    <!-- Tier 1 platform at 100cm height (y=55) -->
+    <path android:pathData="M108,55 H212" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <!-- Cane lashing at tier 1 -->
+    <path android:pathData="M108,52 L108,58 M212,52 L212,58" android:strokeColor="#C8860A" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+
+    <!-- Tier 2 platform at 65cm height (y=95) -->
+    <path android:pathData="M100,95 H220" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <path android:pathData="M100,92 L100,98 M220,92 L220,98" android:strokeColor="#C8860A" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+
+    <!-- Tier 3 / base platform at 30cm height (y=135) -->
+    <path android:pathData="M88,135 H232" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <path android:pathData="M88,132 L88,138 M232,132 L232,138" android:strokeColor="#C8860A" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+
+    <!-- Base spread indicator -->
+    <path android:pathData="M60,170 H260" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M60,166 L60,174 M260,166 L260,174" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Total height indicator -->
+    <path android:pathData="M30,15 V170" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M26,15 L34,15 M26,170 L34,170" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Platform circle indicators (top view mini) -->
+    <path android:pathData="M150,55 m-12,0 a12,4 0 1,0 24,0 a12,4 0 1,0 -24,0"
+        android:strokeColor="#4A7C28" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M148,95 m-12,0 a12,4 0 1,0 24,0 a12,4 0 1,0 -24,0"
+        android:strokeColor="#4A7C28" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+</vector>

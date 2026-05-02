@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Hasta-Shilpa</string>
+    <string name="app_tagline">Design Bridge for Artisans</string>
+    <string name="splash_subtitle">Connecting Traditional Skills with Modern Markets</string>
+
+    <!-- Navigation -->
+    <string name="nav_trends">Trends</string>
+    <string name="nav_blueprints">Blueprints</string>
+    <string name="nav_tracker">Tracker</string>
+    <string name="nav_market">Market</string>
+
+    <!-- Home/Trends -->
+    <string name="trending_title">Design Trends</string>
+    <string name="trending_subtitle">Modern products from traditional materials</string>
+    <string name="see_all">See All</string>
+    <string name="featured">Featured Design</string>
+    <string name="trending">Trending</string>
+    <string name="new_arrival">New</string>
+    <string name="view_blueprint">View Blueprint</string>
+    <string name="download_blueprint">Download Blueprint</string>
+    <string name="materials_needed">Materials Needed</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="market_value">Market Value</string>
+
+    <!-- Blueprints -->
+    <string name="blueprints_title">Blueprint Library</string>
+    <string name="blueprints_subtitle">Clear sketches with exact measurements</string>
+    <string name="zoom_hint">Pinch to zoom • Double-tap to reset</string>
+    <string name="measurements">Measurements</string>
+    <string name="dimensions">Dimensions</string>
+    <string name="assembly_steps">Assembly Steps</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="download_image">Download Image</string>
+    <string name="share_blueprint">Share Blueprint</string>
+
+    <!-- Material Tracker -->
+    <string name="tracker_title">Material Tracker</string>
+    <string name="tracker_subtitle">Log materials for each batch</string>
+    <string name="add_batch">Add New Batch</string>
+    <string name="batch_name">Batch Name</string>
+    <string name="bamboo_poles">Bamboo Poles</string>
+    <string name="cane_meters">Cane (meters)</string>
+    <string name="hours_worked">Hours Worked</string>
+    <string name="units_produced">Units Produced</string>
+    <string name="save_batch">Save Batch</string>
+    <string name="batch_history">Batch History</string>
+    <string name="total_material">Total Material Used</string>
+    <string name="efficiency">Efficiency</string>
+    <string name="poles">poles</string>
+    <string name="meters">m</string>
+    <string name="hours">hrs</string>
+    <string name="units">units</string>
+
+    <!-- Price Suggester -->
+    <string name="price_title">Price Suggester</string>
+    <string name="price_subtitle">Calculate the fair value of your craft</string>
+    <string name="material_cost">Material Cost (₹)</string>
+    <string name="labour_rate">Labour Rate per Hour (₹)</string>
+    <string name="overhead_percent">Overhead %</string>
+    <string name="profit_margin">Profit Margin %</string>
+    <string name="calculate_price">Calculate Suggested Price</string>
+    <string name="suggested_price">Suggested Selling Price</string>
+    <string name="cost_breakdown">Cost Breakdown</string>
+    <string name="raw_material">Raw Material</string>
+    <string name="labour_cost">Labour Cost</string>
+    <string name="overhead">Overhead</string>
+    <string name="profit">Profit</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="bamboo_cost_hint">₹ per pole</string>
+    <string name="cane_cost_hint">₹ per meter</string>
+    <string name="finishing_cost">Finishing &amp; Polish (₹)</string>
+
+    <!-- Marketplace -->
+    <string name="market_title">Marketplace</string>
+    <string name="market_subtitle">List your modern bamboo products</string>
+    <string name="list_product">List New Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Description</string>
+    <string name="asking_price">Asking Price (₹)</string>
+    <string name="product_category">Category</string>
+    <string name="submit_listing">Submit Listing</string>
+    <string name="my_listings">My Listings</string>
+    <string name="available">Available</string>
+    <string name="sold">Sold</string>
+    <string name="contact_buyer">Contact Buyer</string>
+
+    <!-- General -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="category_furniture">Furniture</string>
+    <string name="category_decor">Home Décor</string>
+    <string name="category_kitchen">Kitchen</string>
+    <string name="category_office">Office</string>
+    <string name="category_garden">Garden</string>
+    <string name="search_hint">Search designs…</string>
+    <string name="filter">Filter</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+</resources>

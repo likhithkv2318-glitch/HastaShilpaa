@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Grid -->
+    <path android:pathData="M0,40 H320 M0,80 H320 M0,120 H320 M0,160 H320"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,0 V200 M80,0 V200 M120,0 V200 M160,0 V200 M200,0 V200 M240,0 V200 M280,0 V200"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+
+    <!-- Magazine rack front view -->
+    <!-- 4 corner posts: 38cm high, 32cm wide shelf -->
+    <!-- Left posts -->
+    <path android:pathData="M80,20 V172" android:strokeColor="#FFFFFF" android:strokeWidth="4" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <path android:pathData="M100,20 V172" android:strokeColor="#FFFFFF" android:strokeWidth="4" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <!-- Right posts -->
+    <path android:pathData="M220,20 V172" android:strokeColor="#FFFFFF" android:strokeWidth="4" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <path android:pathData="M240,20 V172" android:strokeColor="#FFFFFF" android:strokeWidth="4" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+
+    <!-- Top cross bar -->
+    <path android:pathData="M80,20 H240" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <!-- Bottom cross bar -->
+    <path android:pathData="M80,165 H240" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:fillColor="@android:color/transparent" android:strokeLineCap="round"/>
+    <!-- Base board -->
+    <path android:pathData="M75,165 H245 V172 H75 Z"
+        android:fillColor="@android:color/transparent" android:strokeColor="#FFFFFF" android:strokeWidth="2"/>
+
+    <!-- Open cane weave on sides -->
+    <!-- Left side weave (hexagonal open pattern) -->
+    <path android:pathData="M80,40 L100,50 M80,60 L100,70 M80,80 L100,90 M80,100 L100,110 M80,120 L100,130 M80,140 L100,150"
+        android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M100,50 L80,60 M100,70 L80,80 M100,90 L80,100 M100,110 L80,120 M100,130 L80,140 M100,150 L80,160"
+        android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Right side weave -->
+    <path android:pathData="M220,40 L240,50 M220,60 L240,70 M220,80 L240,90 M220,100 L240,110 M220,120 L240,130 M220,140 L240,150"
+        android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M240,50 L220,60 M240,70 L220,80 M240,90 L220,100 M240,110 L220,120 M240,130 L220,140 M240,150 L220,160"
+        android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Rubber feet circles -->
+    <path android:pathData="M78,172 m-4,0 a4,3 0 1,0 8,0 a4,3 0 1,0 -8,0" android:strokeColor="#C8860A" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M242,172 m-4,0 a4,3 0 1,0 8,0 a4,3 0 1,0 -8,0" android:strokeColor="#C8860A" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Dimension: width 32cm -->
+    <path android:pathData="M80,185 H240" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M80,181 L80,189 M240,181 L240,189" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Dimension: height 38cm -->
+    <path android:pathData="M50,20 V165" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M46,20 L54,20 M46,165 L54,165" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+</vector>

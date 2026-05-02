@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+
+    <!-- Grid -->
+    <path android:pathData="M0,40 H320 M0,80 H320 M0,120 H320 M0,160 H320"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,0 V200 M80,0 V200 M120,0 V200 M160,0 V200 M200,0 V200 M240,0 V200 M280,0 V200"
+        android:strokeColor="#1A4A90" android:strokeWidth="0.4" android:fillColor="@android:color/transparent"/>
+
+    <!-- Shelf perspective view -->
+    <!-- Front face of shelf box: 60cm × 10cm rail height -->
+    <path android:pathData="M40,80 H280 V130 H40 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="2.5"/>
+
+    <!-- Woven cane surface (cross-hatch fill) -->
+    <path android:pathData="M50,80 L50,130 M65,80 L65,130 M80,80 L80,130 M95,80 L95,130 M110,80 L110,130 M125,80 L125,130 M140,80 L140,130 M155,80 L155,130 M170,80 L170,130 M185,80 L185,130 M200,80 L200,130 M215,80 L215,130 M230,80 L230,130 M245,80 L245,130 M260,80 L260,130 M275,80 L275,130"
+        android:strokeColor="#E8C547" android:strokeWidth="0.6" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,90 H280 M40,100 H280 M40,110 H280 M40,120 H280"
+        android:strokeColor="#E8C547" android:strokeWidth="0.6" android:fillColor="@android:color/transparent"/>
+
+    <!-- Top bamboo rail -->
+    <path android:pathData="M40,75 H280 V82 H40 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="1.5"/>
+    <!-- Bottom bamboo rail -->
+    <path android:pathData="M40,128 H280 V135 H40 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF" android:strokeWidth="1.5"/>
+
+    <!-- Wall bracket left -->
+    <path android:pathData="M40,75 L25,65 L20,90 L40,95"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#C8860A" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+    <!-- Wall bracket right -->
+    <path android:pathData="M280,75 L295,65 L300,90 L280,95"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#C8860A" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+
+    <!-- Wall surface indicator -->
+    <path android:pathData="M10,55 V145" android:strokeColor="#FFFFFF" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M10,65 L20,65 M10,85 L20,75 M10,105 L20,95 M10,125 L20,115 M10,145 L20,135"
+        android:strokeColor="#FFFFFF" android:strokeWidth="0.8" android:fillColor="@android:color/transparent"/>
+
+    <!-- Dimension: length 60cm -->
+    <path android:pathData="M40,155 H280" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,151 L40,159 M280,151 L280,159" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Bracket spacing 40cm -->
+    <path android:pathData="M40,168 H200" android:strokeColor="#E8C547" android:strokeWidth="0.8" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,164 L40,172 M200,164 L200,172" android:strokeColor="#E8C547" android:strokeWidth="0.8" android:fillColor="@android:color/transparent"/>
+    <!-- Depth 20cm -->
+    <path android:pathData="M300,75 V135" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M296,75 L304,75 M296,135 L304,135" android:strokeColor="#E8C547" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+</vector>

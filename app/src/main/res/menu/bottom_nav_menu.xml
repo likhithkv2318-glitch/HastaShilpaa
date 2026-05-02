@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_trends"
+        android:icon="@drawable/ic_trends"
+        android:title="@string/nav_trends" />
+    <item
+        android:id="@+id/nav_blueprints"
+        android:icon="@drawable/ic_blueprint"
+        android:title="@string/nav_blueprints" />
+    <item
+        android:id="@+id/nav_tracker"
+        android:icon="@drawable/ic_tracker"
+        android:title="@string/nav_tracker" />
+    <item
+        android:id="@+id/nav_market"
+        android:icon="@drawable/ic_market"
+        android:title="@string/nav_market" />
+</menu>

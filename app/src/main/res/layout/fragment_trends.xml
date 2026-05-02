@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    FIXED: Replaced NestedScrollView + ViewPager2 with a single RecyclerView.
+    Root cause of ANR: ViewPager2 (built on RecyclerView) inside NestedScrollView
+    causes a layout measurement deadlock on the main thread (ANR).
+    Fix: Use one top-level RecyclerView; featured cards use a horizontal RecyclerView.
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</FrameLayout>

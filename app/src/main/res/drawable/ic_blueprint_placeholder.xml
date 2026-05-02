@@ -1,0 +1,78 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="240dp"
+    android:viewportWidth="320"
+    android:viewportHeight="240">
+
+    <!-- Grid lines (blueprint style) -->
+    <path android:pathData="M0,40 H320 M0,80 H320 M0,120 H320 M0,160 H320 M0,200 H320"
+        android:strokeColor="#C5CAE9" android:strokeWidth="0.5" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M40,0 V240 M80,0 V240 M120,0 V240 M160,0 V240 M200,0 V240 M240,0 V240 M280,0 V240"
+        android:strokeColor="#C5CAE9" android:strokeWidth="0.5" android:fillColor="@android:color/transparent"/>
+
+    <!-- Bamboo Laptop Stand schematic -->
+    <!-- Base frame rectangle -->
+    <path android:pathData="M60,160 H260 V180 H60 Z"
+        android:strokeColor="#2D5016" android:strokeWidth="2.5" android:fillColor="#E8F5E9"/>
+    <!-- Left leg -->
+    <path android:pathData="M80,160 L70,100 M80,160 L90,100"
+        android:strokeColor="#2D5016" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+    <!-- Right leg -->
+    <path android:pathData="M240,160 L230,100 M240,160 L250,100"
+        android:strokeColor="#2D5016" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+    <!-- Top platform -->
+    <path android:pathData="M65,100 H255 V116 H65 Z"
+        android:strokeColor="#2D5016" android:strokeWidth="2.5" android:fillColor="#E8F5E9"/>
+    <!-- Bamboo pole detail lines on platform -->
+    <path android:pathData="M100,100 V116 M140,100 V116 M180,100 V116 M220,100 V116"
+        android:strokeColor="#4A7C28" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+    <!-- Cross brace -->
+    <path android:pathData="M80,155 L240,105 M80,105 L240,155"
+        android:strokeColor="#C8860A" android:strokeWidth="1.5" android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Dimension arrows and labels -->
+    <!-- Width dimension -->
+    <path android:pathData="M60,195 H260"
+        android:strokeColor="#1565C0" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M60,191 L60,199 M260,191 L260,199"
+        android:strokeColor="#1565C0" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+
+    <!-- Height dimension -->
+    <path android:pathData="M40,100 V180"
+        android:strokeColor="#1565C0" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M36,100 L44,100 M36,180 L44,180"
+        android:strokeColor="#1565C0" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+
+    <!-- Width label -->
+    <path android:pathData="M150,205 H160 M150,209 H160"
+        android:strokeColor="#1565C0" android:strokeWidth="1" android:fillColor="@android:color/transparent"/>
+
+    <!-- Angle indicator -->
+    <path android:pathData="M160,116 A20,20 0 0,1 180,100"
+        android:strokeColor="#E53935" android:strokeWidth="1.5" android:fillColor="@android:color/transparent"/>
+
+    <!-- Node circles at joints -->
+    <path android:pathData="M80,160 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#2D5016" android:strokeColor="@android:color/transparent" android:strokeWidth="0"/>
+    <path android:pathData="M240,160 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#2D5016" android:strokeColor="@android:color/transparent" android:strokeWidth="0"/>
+    <path android:pathData="M65,108 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#C8860A" android:strokeColor="@android:color/transparent" android:strokeWidth="0"/>
+    <path android:pathData="M255,108 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#C8860A" android:strokeColor="@android:color/transparent" android:strokeWidth="0"/>
+
+    <!-- Scale indicator -->
+    <path android:pathData="M270,220 H300"
+        android:strokeColor="#2D5016" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M270,216 L270,224 M300,216 L300,224"
+        android:strokeColor="#2D5016" android:strokeWidth="2" android:fillColor="@android:color/transparent"/>
+
+    <!-- Compass rose (top right) -->
+    <path android:pathData="M290,30 V10 M290,30 V50 M270,30 H290 M310,30 H290"
+        android:strokeColor="#2D5016" android:strokeWidth="1.5" android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+    <path android:pathData="M290,10 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#2D5016" android:strokeColor="@android:color/transparent" android:strokeWidth="0"/>
+
+</vector>
