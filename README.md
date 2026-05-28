@@ -1,3 +1,4 @@
+<meta name="monetag" content="57e4c37b1e818b50fac154b9f2b82b10">
 # 🌿 Hasta-Shilpa — Design Bridge for Artisans
 
 **Android App | Bamboo & Cane Artisan Modernization Platform**
